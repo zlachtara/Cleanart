@@ -213,7 +213,6 @@ ul { list-style: none; }
   transition: all var(--transition);
 }
 .nav-link:hover, .nav-link.active {
-  background: var(--gray-100);
   color: var(--blue-mid);
 }
 .nav-cta {
