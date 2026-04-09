@@ -5,29 +5,35 @@
 
 /* ââ ROOT VARIABLES ââ */
 :root {
-  --blue-dark:    #0d47a1;
-  --blue:         #1565c0;
-  --blue-mid:     #1e88e5;
-  --blue-light:   #42a5f5;
-  --green:        #2e7d32;
-  --green-mid:    #388e3c;
-  --green-light:  #4caf50;
-  --green-accent: #66bb6a;
+   --blue-dark:    #a67c00;  /* gold dark */
+  --blue:         #c9a227;  /* gold */
+  --blue-mid:     #d4af37;  /* main gold */
+  --blue-light:   #f1d27a;  /* light gold */
+
+  --green:        #2a2a2c;  /* dark gray */
+  --green-mid:    #3a3a3d;  /* mid gray */
+  --green-light:  #4a4a4d;  /* lighter gray */
+  --green-accent: #6b6b70;  /* accent gray */
+
   --white:        #ffffff;
-  --gray-50:      #f8fafc;
-  --gray-100:     #f1f5f9;
-  --gray-200:     #e2e8f0;
-  --gray-400:     #94a3b8;
-  --gray-600:     #475569;
-  --gray-700:     #334155;
-  --gray-900:     #0f172a;
-  --shadow-sm:    0 1px 3px rgba(0,0,0,0.1);
-  --shadow-md:    0 4px 16px rgba(0,0,0,0.12);
-  --shadow-lg:    0 10px 40px rgba(0,0,0,0.15);
-  --shadow-xl:    0 20px 60px rgba(0,0,0,0.2);
+
+  --gray-50:      #f5f5f5;
+  --gray-100:     #e5e5e5;
+  --gray-200:     #d4d4d4;
+  --gray-400:     #9ca3af;
+  --gray-600:     #3a3a3d;
+  --gray-700:     #2a2a2c;
+  --gray-900:     #121212;
+
+  --shadow-sm:    0 1px 3px rgba(0,0,0,0.2);
+  --shadow-md:    0 4px 16px rgba(0,0,0,0.25);
+  --shadow-lg:    0 10px 40px rgba(0,0,0,0.3);
+  --shadow-xl:    0 20px 60px rgba(0,0,0,0.4);
+
   --radius-sm:    8px;
   --radius-md:    16px;
   --radius-lg:    24px;
+
   --transition:   0.3s ease;
 }
 
@@ -73,11 +79,11 @@ ul { list-style: none; }
 .btn-primary {
   background: linear-gradient(135deg, var(--blue-mid), var(--blue-dark));
   color: var(--white);
-  box-shadow: 0 4px 20px rgba(21,101,192,0.35);
+  box-shadow: 0 4px 20px rgba(147, 131, 11, 0.35);
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(21,101,192,0.5);
+  box-shadow: 0 8px 30px rgba(192, 152, 21, 0.5);
 }
 .btn-outline {
   background: transparent;
@@ -274,7 +280,7 @@ ul { list-style: none; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(13,71,161,0.75) 0%, rgba(21,101,192,0.65) 50%, rgba(46,125,50,0.5) 100%);
+  background: linear-gradient(135deg, rgba(90, 87, 5, 0.108) 0%, rgba(105, 102, 9, 0.213) 50%, rgba(120, 125, 46, 0.5) 100%);
   z-index: 1;
   pointer-events: none;
 }
@@ -497,7 +503,7 @@ ul { list-style: none; }
 ââââââââââââââââââââââââââââââââââ */
 .why-us {
   padding: 100px 0;
-  background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 50%, #1b5e20 100%);
+  background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 50%, #4c4608 100%);
   position: relative;
   overflow: hidden;
 }
@@ -727,7 +733,7 @@ ul { list-style: none; }
 .cta-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(13,71,161,0.85), rgba(27,94,32,0.75));
+  background: linear-gradient(135deg, rgba(92, 76, 1, 0.559), rgba(94, 85, 27, 0.75));
   z-index: 1;
   pointer-events: none;
 }
